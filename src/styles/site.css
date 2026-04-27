@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 600 700 800; font-display: swap; src: url('/fonts/inter-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Nunito'; font-style: normal; font-weight: 700 800; font-display: swap; src: url('/fonts/nunito-latin.woff2') format('woff2'); }
+
+@theme {
+  --color-brand-bg: #F6F7FB;
+  --color-brand-accent: #4267B2;
+  --color-brand-accent-deep: #35528E;
+  --color-ink: #141F35;
+  --color-ink-soft: #283E6B;
+  --color-border: #C6D1E8;
+  --color-cream: #F0F3F9;
+  --color-accent-light: #E3E8F3;
+  --color-brand-secondary: #D9D3B7;
+  --color-white: #FFFFFF;
+  --font-display: 'Nunito', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); color: var(--color-ink); background-color: var(--color-brand-bg); }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); }
+img { max-width: 100%; display: block; }
+
+@layer base {
+  .text-xs { font-size: 0.75rem; line-height: 1rem; }
+  .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+  .text-base { font-size: 1rem; line-height: 1.5rem; }
+  .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+  .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+  .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+  .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+  .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+  .text-5xl { font-size: 3rem; line-height: 1; }
+  .text-6xl { font-size: 3.75rem; line-height: 1; }
+}
