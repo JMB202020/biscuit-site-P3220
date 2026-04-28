@@ -22,3 +22,8 @@ html { scroll-behavior: smooth; }
 body { font-family: var(--font-body); color: var(--color-ink); background-color: var(--color-brand-bg); }
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); }
 img { max-width: 100%; display: block; }
+
+body { font-size: 1rem; line-height: 1.6; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; }
+h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); line-height: 1.2; }
+h3 { font-size: clamp(1.1rem, 2vw, 1.5rem); line-height: 1.3; }

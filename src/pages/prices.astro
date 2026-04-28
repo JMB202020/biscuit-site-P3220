@@ -1,6 +1,6 @@
 ---
 import '../styles/site.css';
-const title = 'Photo Gallery – Farcroft Kennels & Cattery';
+const title = 'Prices – Farcroft Kennels & Cattery';
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -8,7 +8,7 @@ const title = 'Photo Gallery – Farcroft Kennels & Cattery';
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
-  <meta name="description" content="See photos of our facilities, grounds and happy guests at Farcroft Kennels and Cattery, Chelmsford." />
+  <meta name="description" content="Boarding prices for dogs and cats at Farcroft Kennels and Cattery, Chelmsford. Call 01621 741937 for current rates and availability." />
 </head>
 <body>
 
@@ -24,8 +24,8 @@ const title = 'Photo Gallery – Farcroft Kennels & Cattery';
     <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-white">
       <a href="/P3220" class="hover:text-[var(--color-brand-secondary)] transition-colors">Home</a>
       <a href="/P3220/team" class="hover:text-[var(--color-brand-secondary)] transition-colors">About Us</a>
-      <a href="/P3220/prices" class="hover:text-[var(--color-brand-secondary)] transition-colors">Prices</a>
-      <a href="/P3220/our-guests" class="border-b-2 border-white/60 pb-0.5">Our Guests</a>
+      <a href="/P3220/prices" class="border-b-2 border-white/60 pb-0.5">Prices</a>
+      <a href="/P3220/our-guests" class="hover:text-[var(--color-brand-secondary)] transition-colors">Our Guests</a>
       <a href="/P3220/catteries" class="hover:text-[var(--color-brand-secondary)] transition-colors">Catteries</a>
       <a href="/P3220/contact" class="bg-white text-[var(--color-brand-accent)] px-4 py-1.5 rounded-full font-bold hover:bg-[var(--color-brand-secondary)] transition-colors">Contact Us</a>
     </nav>
@@ -53,36 +53,97 @@ const title = 'Photo Gallery – Farcroft Kennels & Cattery';
 <!-- Page hero -->
 <section class="bg-[var(--color-brand-accent)] py-16">
   <div class="max-w-6xl mx-auto px-4 text-center">
-    <div class="inline-flex items-center gap-2 bg-white/20 text-white text-sm px-4 py-1.5 rounded-full mb-4">📍 Latchingdon, Chelmsford</div>
-    <h1 class="font-display font-extrabold text-white mb-3">Facility Gallery</h1>
-    <p class="text-white/80 text-lg max-w-2xl mx-auto">A look inside our kennels, cattery and grounds in Chelmsford.</p>
+    <div class="inline-flex items-center gap-2 bg-white/20 text-white text-sm px-4 py-1.5 rounded-full mb-4">💷 Transparent Pricing</div>
+    <h1 class="font-display font-extrabold text-white mb-3">Our Prices</h1>
+    <p class="text-white/80 text-lg max-w-2xl mx-auto">5-star boarding for your pets at fair, transparent prices. Call us for current rates and to check availability.</p>
   </div>
 </section>
 
-<!-- Gallery grid -->
+<!-- Pricing section -->
 <section class="py-16 bg-[var(--color-brand-bg)]">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921782.jpg" alt="Kennel facility 1" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921783.jpg" alt="Kennel facility 2" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921784.jpg" alt="Cattery chalet" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921785.jpg" alt="Kennel run" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921786.jpg" alt="Exercise area" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921787.jpg" alt="Outdoor paddock" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921788.jpg" alt="Farcroft grounds" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921789.jpg" alt="Kennel block" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921790.jpg" alt="Reception area" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921791.jpg" alt="Cat chalets" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921792.jpg" alt="Enclosed field" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921793.jpg" alt="Woodland walk area" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921794.jpg" alt="Kennel exterior" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921795.jpg" alt="Cattery exterior" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921796.jpg" alt="Garden area" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
-      <div class="aspect-square overflow-hidden rounded-xl"><img src="/P3220/images/cache-2475921797.jpg" alt="Farcroft facilities" width="800" height="600" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="bg-[var(--color-brand-accent)] rounded-2xl p-6 text-white text-center mb-10">
+      <p class="text-lg font-semibold">For our latest prices and to check availability, please call us on <a href="tel:+441621741937" class="underline font-bold">01621 741937</a> or email <a href="mailto:gkckennels@gmail.com" class="underline font-bold">gkckennels@gmail.com</a></p>
     </div>
-    <div class="text-center mt-8">
-      <p class="text-[var(--color-ink-soft)] mb-4">See more of our guests in the Our Guests gallery</p>
-      <a href="/P3220/our-guests" class="inline-block bg-[var(--color-brand-accent)] text-white font-bold px-6 py-3 rounded-full hover:bg-[var(--color-brand-accent-deep)] transition-colors">View Our Guests →</a>
+    <div class="grid sm:grid-cols-2 gap-6 mb-10">
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🐕</div>
+        <h2 class="font-display font-bold text-[var(--color-ink)] mb-3">Dog Boarding</h2>
+        <ul class="space-y-3 text-[var(--color-ink-soft)] text-sm">
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Individual kennel with outdoor run
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Twice daily exercise in enclosed gardens or woodland
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Dogs from different families never mixed
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Full range of food included or bring your own
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Cleaned twice daily as standard
+          </li>
+        </ul>
+        <div class="mt-6 pt-6 border-t border-[var(--color-border)]">
+          <p class="text-[var(--color-ink-soft)] text-sm">Family discounts available for multiple dogs. Please call for details.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🐈</div>
+        <h2 class="font-display font-bold text-[var(--color-ink)] mb-3">Cat Boarding</h2>
+        <ul class="space-y-3 text-[var(--color-ink-soft)] text-sm">
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Individual cat chalet
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Cleaned twice daily
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Calm, secure environment
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Wide range of food provided
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-[var(--color-brand-accent)] font-bold">✓</span>
+            Prescription diets welcomed
+          </li>
+        </ul>
+        <div class="mt-6 pt-6 border-t border-[var(--color-border)]">
+          <p class="text-[var(--color-ink-soft)] text-sm">Multi-cat family prices available. Please enquire.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[var(--color-cream)] rounded-2xl p-6 mb-8">
+      <h3 class="font-display font-bold text-[var(--color-ink)] mb-3">Also Available</h3>
+      <div class="grid sm:grid-cols-3 gap-4 text-sm text-[var(--color-ink-soft)]">
+        <div>
+          <strong class="text-[var(--color-ink)]">Enclosed Area Hire</strong><br />
+          Private field hire for off-lead exercise. <a href="/P3220/enclosed-area" class="text-[var(--color-brand-accent)] hover:underline">Learn more →</a>
+        </div>
+        <div>
+          <strong class="text-[var(--color-ink)]">Extra Services</strong><br />
+          Additional services available on request. <a href="/P3220/extra-services" class="text-[var(--color-brand-accent)] hover:underline">Learn more →</a>
+        </div>
+        <div>
+          <strong class="text-[var(--color-ink)]">Home Boarders</strong><br />
+          Family home environment available. <a href="/P3220/home-boarders" class="text-[var(--color-brand-accent)] hover:underline">Learn more →</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a href="/P3220/contact" class="inline-block bg-[var(--color-brand-accent)] text-white font-bold px-8 py-3 rounded-full hover:bg-[var(--color-brand-accent-deep)] transition-colors">Make a Booking Enquiry</a>
     </div>
   </div>
 </section>
